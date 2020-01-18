@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background: #F4F6FA;
+}
+
+.header {
+  width: 100vw;
+  height: 70px;
+  background: #06B97C;
+  color: #ffff;
+}
+
+.brand-header {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+
+.profile-text {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.first-screen {
+  display: block;
+}
+
+.rectangle-exchange {
+  position: absolute;
+  top: 130px;
+  left: 402px;
+  height: 520px;
+  width: 500px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.rectangle-exchange .exchange-text {
+  position: absolute;
+  top: 35px;
+  left: 74px;
+}
+
+.rectangle-exchange .buy-crypto {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 120px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.rectangle-exchange .buy-crypto-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.rectangle-exchange .buy-crypto-text {
+  position: absolute;
+  top: 18px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.rectangle-exchange .sell-crypto {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 220px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.rectangle-exchange .sell-crypto-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.rectangle-exchange .sell-crypto-text {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.rectangle-exchange .exchange-crypto {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 320px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.rectangle-exchange .exchange-crypto-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.rectangle-exchange .exchange-crypto-text {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.rectangle-exchange .btn-next {
+  position: absolute;
+  top: 430px;
+  left: 74px;
+  height: 50px;
+  width: 350px;
+  border-radius: 4px;
+  border: none;
+  background-color: #06B97C;
+  color: #FFFFFF;
+}
+
+.second-screen {
+  display: none;
+}
+
+.sell-crypto-rectangle {
+  position: absolute;
+  top: 130px;
+  left: 402px;
+  height: 520px;
+  width: 500px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.sell-crypto-rectangle .sell-text {
+  position: absolute;
+  top: 35px;
+  left: 74px;
+}
+
+.sell-crypto-rectangle .bitcoin {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 120px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.sell-crypto-rectangle .bitcoin-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.sell-crypto-rectangle .bitcoin-text {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.sell-crypto-rectangle .flashcoin {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 220px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.sell-crypto-rectangle .flashcoin-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.sell-crypto-rectangle .flashcoin-text {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.sell-crypto-rectangle .ethereum {
+  height: 70px;
+  width: 350px;
+  position: absolute;
+  top: 320px;
+  left: 74px;
+  border: 1px solid  #D0D8E2;
+}
+
+.sell-crypto-rectangle .ethereum-radio {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #8EA2B8;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.sell-crypto-rectangle .ethereum-text {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 24px;
+}
+
+.sell-crypto-rectangle .btn-next-sell-crypto {
+  position: absolute;
+  top: 430px;
+  left: 74px;
+  height: 50px;
+  width: 350px;
+  border-radius: 4px;
+  border: none;
+  background-color: #06B97C;
+  color: #ffff;
+}
+
+.third-screen {
+  display: none;
+}
+
+.rectangle {
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  height: 540px;
+  width: 585px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.rectangle .sell-flashcoin {
+  margin-left: 74px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.rectangle .you-send {
+  font-size: 15px;
+  position: absolute;
+  top: 70px;
+  left: 74px;
+}
+
+.rectangle .in-flash {
+  position: absolute;
+  top: 100px;
+  left: 74px;
+  height: 45px;
+  width: 420px;
+  font-size: 34px;
+  border: 1px solid #D0D8E2;
+}
+
+.rectangle .you-receive {
+  position: absolute;
+  top: 170px;
+  left: 74px;
+  font-size: 15px;
+}
+
+.rectangle .in-ghs {
+  position: absolute;
+  top: 200px;
+  left: 74px;
+  height: 45px;
+  width: 420px;
+  font-size: 34px;
+  border: 1px solid #D0D8E2;
+}
+
+.rectangle .momo-network {
+  position: absolute;
+  top: 270px;
+  left: 74px;
+  font-size: 15px;
+}
+
+.rectangle .momo-field {
+  position: absolute;
+  top: 300px;
+  left: 74px;
+  height: 45px;
+  width: 200px;
+  font-size: 34px;
+  border: 1px solid #D0D8E2;
+}
+
+.rectangle .momo-number {
+  position: absolute;
+  top: 270px;
+  left: 380px;
+  font-size: 15px;
+}
+
+.rectangle .momo-number-field {
+  position: absolute;
+  top: 300px;
+  left: 294px;
+  height: 45px;
+  width: 200px;
+  font-size: 34px;
+  border: 1px solid #D0D8E2;
+}
+
+.rectangle .momo-name {
+  position: absolute;
+  top: 370px;
+  left: 74px;
+  font-size: 15px;
+}
+
+.rectangle .momo-name-field {
+  position: absolute;
+  top: 400px;
+  left: 74px;
+  height: 45px;
+  width: 420px;
+  font-size: 34px;
+  border: 1px solid #D0D8E2;
+}
+
+.rectangle .btn-next-3 {
+  position: absolute;
+  top: 480px;
+  left: 74px;
+  height: 45px;
+  width: 420px;
+  border-radius: 4px;
+  border: none;
+  background-color: #06B97C;
+  color: #ffff;
+}
+
+.fourth-screen {
+  display: none;
+}
+
+.rectangle-2 {
+  height: 437px;
+  width: 417px;
+  background-color: #06B97C;
+  position: absolute;
+  top: 110px;
+  left: 850px;
+}
+
+.invoice {
+  position: absolute;
+  top: 110px;
+  left: 420px;
+  height: 500px;
+  width: 585px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.invoice .invoice-text {
+  position: absolute;
+  top: 20px;
+  left: 74px;
+  color: #06B97C;
+}
+
+.invoice .u-send {
+  position: absolute;
+  top: 80px;
+  left: 74px;
+  font-size: 15px;
+  color: #8EA2B8;
+}
+
+.invoice .invoice-flashcoin {
+  position: absolute;
+  top: 110px;
+  left: 74px;
+  font-size: 20px;
+}
+
+.invoice .u-receive {
+  position: absolute;
+  top: 160px;
+  left: 74px;
+  font-size: 15px;
+  color: #8EA2B8;
+}
+
+.invoice .u-ghs {
+  position: absolute;
+  top: 190px;
+  left: 74px;
+  font-size: 20px;
+}
+
+.invoice .u-momo-network {
+  position: absolute;
+  top: 230px;
+  left: 74px;
+  font-size: 15px;
+  color: #8EA2B8;
+}
+
+.invoice .u-mtn {
+  position: absolute;
+  top: 260px;
+  left: 74px;
+  font-size: 20px;
+}
+
+.invoice .u-momo-number {
+  position: absolute;
+  top: 300px;
+  left: 74px;
+  font-size: 15px;
+  color: #8EA2B8;
+}
+
+.invoice .u-momo-digits {
+  position: absolute;
+  top: 330px;
+  left: 74px;
+  font-size: 20px;
+}
+
+.invoice .u-momo-name {
+  position: absolute;
+  top: 365px;
+  left: 74px;
+  font-size: 15px;
+  color: #8EA2B8;
+}
+
+.invoice .u-name {
+  position: absolute;
+  top: 395px;
+  left: 74px;
+  font-size: 20px;
+}
+
+.invoice .btn-next-4 {
+  position: absolute;
+  top: 440px;
+  left: 74px;
+  height: 45px;
+  width: 420px;
+  border-radius: 4px;
+  border: none;
+  background-color: #06B97C;
+  color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
